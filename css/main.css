@@ -19,11 +19,12 @@ footer {
 
 img {
     float: right;
-    margin: 10px;
+    margin: 30px;
     width: 165px;
     height: 260px;
-    box-shadow: 5px 5px 1px;
+    box-shadow: 3px 3px 1px darkgrey;
     border-radius: 8px;
+    margin-top: -81px;
 }
 
 body {
@@ -38,8 +39,9 @@ h1 {
 footer {
     font-size: 16px;
     padding: 2px
+    left-mar
    
 }
 #currentdate {
-    color: darkred;
+    color: firebrick;
 }
