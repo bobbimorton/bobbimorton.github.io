@@ -26,10 +26,7 @@ img {
     border-radius: 8px;
 }
 
-header,
-footer,
-nav,
-main {
+body {
     margin: 1.25rem auto;
     max-width: 760px;
 }
