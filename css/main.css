@@ -1,20 +1,37 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-header, footer {
-    background-color: cornflowerblue;
+header,
+footer {
+    background-color: slateblue;
+    border-radius: 9px;
     padding: .5rem;
-   
+    box-shadow: 2px 2px;
+    text-align: center;
+    color: lightgray;
 }
 
 img {
-    width: 125px;
-    height: 200px;
-    border: 1px solid #fff;
+    float: right;
+    margin: 10px;
+    width: 165px;
+    height: 250px;
+    box-shadow: 5px 5px 1px;
     border-radius: 8px;
-    padding: 5px
-    
+}
+
+header,
+footer,
+nav,
+main {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+h1 {
+    padding: 10px;
+    font-size: 40px;
 }
