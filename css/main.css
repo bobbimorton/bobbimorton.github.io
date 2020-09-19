@@ -1,15 +1,17 @@
-body {
+header, nav, main {
     font-size: 18px;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+nav {
+    border-bottom: 5px solid;
+} 
 
 header,
 footer {
     background-color: slateblue;
     border-radius: 9px;
-    padding: .5rem;
     box-shadow: 2px 2px;
     text-align: center;
     color: lightgray;
@@ -19,7 +21,7 @@ img {
     float: right;
     margin: 10px;
     width: 165px;
-    height: 250px;
+    height: 260px;
     box-shadow: 5px 5px 1px;
     border-radius: 8px;
 }
@@ -32,6 +34,12 @@ main {
     max-width: 760px;
 }
 h1 {
-    padding: 10px;
     font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+footer {
+    font-size: 14px;
+    padding: 2px
+   
 }
