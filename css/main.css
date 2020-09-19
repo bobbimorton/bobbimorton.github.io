@@ -1,12 +1,15 @@
-header, nav, main {
+header,
+nav,
+main {
     font-size: 18px;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 nav {
     border-bottom: 5px solid;
-} 
+}
 
 header,
 footer {
@@ -14,34 +17,35 @@ footer {
     border-radius: 9px;
     box-shadow: 2px 2px;
     text-align: center;
-    color: lightgray;
+    color: aliceblue;
 }
 
 img {
     float: right;
     margin: 30px;
-    width: 165px;
-    height: 260px;
-    box-shadow: 3px 3px 1px darkgrey;
+    width: 150px;
+    height: 235px;
+    box-shadow: 5px 5px 5px rgb(82, 82, 82);
     border-radius: 8px;
-    margin-top: -81px;
-    margin-bottom: -80px;
 }
 
 body {
     margin: 1.25rem auto;
     max-width: 760px;
 }
+
 h1 {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
+
 footer {
     font-size: 16px;
     padding: 4px;
-    
+
 }
+
 #currentdate {
     color: firebrick;
 }
