@@ -25,6 +25,7 @@ img {
     box-shadow: 3px 3px 1px darkgrey;
     border-radius: 8px;
     margin-top: -81px;
+    margin-bottom: -80px;
 }
 
 body {
@@ -38,9 +39,8 @@ h1 {
 }
 footer {
     font-size: 16px;
-    padding: 2px
-    left-mar
-   
+    padding: 4px;
+    
 }
 #currentdate {
     color: firebrick;
